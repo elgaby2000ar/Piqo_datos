@@ -2,10 +2,22 @@
 
 Paquete diario de precios para la app **Piqo**, publicado en GitHub Pages.
 
-Todos los días (13:47 y 17:13, hora argentina; SEPA publica cerca de las 13:20) GitHub Actions baja el último ZIP de
+Todos los días una PC en Argentina baja el último ZIP de
 [SEPA](https://datos.produccion.gob.ar/dataset/sepa-precios) (precios que las cadenas
 informan a la Secretaría de Comercio, datos abiertos), se queda con CABA y la provincia
-de Buenos Aires y lo publica como JSON. Si algo falla, queda publicado el del día anterior.
+de Buenos Aires, arma el paquete y lo sube a la rama `paquete`. GitHub Actions lo publica
+en Pages. Si un día no se actualiza, queda publicado el anterior.
+
+¿Por qué una PC y no GitHub Actions? El portal de datos devuelve 403 a las IPs de
+centros de datos (probado el 18/11/2026): solo responde a conexiones desde Argentina.
+
+## Instalar en la PC (una vez)
+
+1. Instalar [Python 3.12 o más nuevo](https://www.python.org/downloads/) (marcar "Add to PATH") y Git.
+2. Clonar este repositorio: `git clone https://github.com/elgaby2000ar/Piqo_datos`
+3. En PowerShell, dentro de la carpeta: `powershell -ExecutionPolicy Bypass -File pc\instalar.ps1`
+
+Corre a las 14:00 y 18:30; si la PC estaba apagada, apenas se prende. Registro en `pc\actualizar.log`.
 
 ## Formato (`v1/`)
 

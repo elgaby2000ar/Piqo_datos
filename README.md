@@ -2,7 +2,7 @@
 
 Paquete diario de precios para la app **Piqo**, publicado en GitHub Pages.
 
-Todos los días (08:17 y 14:43, hora argentina) GitHub Actions baja el último ZIP de
+Todos los días (13:47 y 17:13, hora argentina; SEPA publica cerca de las 13:20) GitHub Actions baja el último ZIP de
 [SEPA](https://datos.produccion.gob.ar/dataset/sepa-precios) (precios que las cadenas
 informan a la Secretaría de Comercio, datos abiertos), se queda con CABA y la provincia
 de Buenos Aires y lo publica como JSON. Si algo falla, queda publicado el del día anterior.

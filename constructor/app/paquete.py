@@ -11,7 +11,8 @@ Estructura (versión 1), dentro de la carpeta de salida:
     v1/productos.json    catálogo para buscar: clave, ean, nombre, marca, tipo,
                          contenido, unidad, precio más bajo y sucursales
     v1/leyendas.json     textos de oferta, referenciados por índice
-    v1/p/<n>.json        {clave: {"id": uuid, "p": [[sucursal, lista, oferta, leyenda]]}}
+    v1/p/<n>.json        {clave: {"id": uuid, "d": [ean, nombre, marca, tipo, contenido,
+                         unidad], "p": [[sucursal, lista, oferta, leyenda], ...]}}
 
 La clave de producto son los primeros 12 dígitos hexadecimales de su UUID: estable día
 a día (sirve para links y listas guardadas) y un tercio del largo. Su fragmento es
@@ -288,7 +289,9 @@ class Constructor:
                     fila += [_numero(o), ley]
                 filas.append(fila)
             filas.sort()
-            fragmentos[frag][clave] = {"id": producto[0], "p": filas}
+            # "d": los datos del producto, para que el servidor lo dé de alta sin bajar el
+            # catálogo entero cuando alguien aporta algo de un producto nuevo.
+            fragmentos[frag][clave] = {"id": producto[0], "d": producto[1:], "p": filas}
 
         def guardar(nombre: str, datos: object) -> None:
             (destino / nombre).write_text(

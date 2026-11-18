@@ -1,0 +1,47 @@
+name: Paquete diario de precios
+
+# Baja el último ZIP de SEPA, arma el paquete (CABA y provincia de Buenos Aires) y lo
+# publica en GitHub Pages. Si algo falla, queda publicado el del día anterior.
+on:
+  schedule:
+    - cron: "17 11 * * *"   # 08:17 en Argentina
+    - cron: "43 17 * * *"   # segundo intento, 14:43, por si SEPA publicó tarde
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  armar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Dependencias
+        run: pip install "httpx>=0.27"
+      - name: Armar el paquete
+        working-directory: constructor
+        run: python scripts/armar_paquete.py --salida ../sitio
+      - name: Página de inicio
+        run: cp pagina/index.html sitio/index.html && touch sitio/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: sitio
+  publicar:
+    needs: armar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4

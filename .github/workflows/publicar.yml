@@ -1,0 +1,48 @@
+name: Publicar paquete de precios
+
+# SEPA bloquea las IPs de centros de datos (GitHub incluido): el paquete lo arma una PC
+# en Argentina (pc/actualizar.ps1) y lo sube a la rama `paquete`. Acá solo se publica
+# esa rama en GitHub Pages. La rama no guarda historia: se reemplaza cada día.
+on:
+  push:
+    branches: [paquete]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: paquete
+          path: sitio
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+      - name: Revisar el paquete
+        run: |
+          set -e
+          test -f sitio/v1/manifiesto.json
+          python3 -c "import json; m=json.load(open('sitio/v1/manifiesto.json')); assert m['version']==1 and m['precios']>100000, m; print(m)"
+          rm -rf sitio/.git
+          cp main/pagina/index.html sitio/index.html
+          touch sitio/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: sitio
+      - id: despliegue
+        uses: actions/deploy-pages@v4

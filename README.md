@@ -5,8 +5,9 @@ Paquete diario de precios para la app **Piqo**, publicado en GitHub Pages.
 Todos los días una PC en Argentina baja el último ZIP de
 [SEPA](https://datos.produccion.gob.ar/dataset/sepa-precios) (precios que las cadenas
 informan a la Secretaría de Comercio, datos abiertos), se queda con CABA y la provincia
-de Buenos Aires, arma el paquete y lo sube a la rama `paquete`. GitHub Actions lo publica
-en Pages. Si un día no se actualiza, queda publicado el anterior.
+de Buenos Aires, arma el paquete y lo sube a la rama `paquete`, que GitHub Pages publica tal cual
+(Settings → Pages → Deploy from a branch → `paquete`, raíz). Si un día no se actualiza,
+queda publicado el anterior.
 
 ¿Por qué una PC y no GitHub Actions? El portal de datos devuelve 403 a las IPs de
 centros de datos (probado el 18/11/2026): solo responde a conexiones desde Argentina.

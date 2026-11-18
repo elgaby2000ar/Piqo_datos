@@ -35,7 +35,17 @@ PROVINCIAS = ["AR-C", "AR-B"]
 
 def ultimo_recurso(cliente: httpx.Client) -> tuple[str, date]:
     """El ZIP más reciente de los siete (uno por día de la semana) y su fecha."""
-    datos = cliente.get(validar_url(URL_RECURSOS, HOSTS)).json()
+    respuesta = cliente.get(
+        validar_url(URL_RECURSOS, HOSTS), headers={"User-Agent": "PiqoBot/1.0 (+datos abiertos)"}
+    )
+    try:
+        datos = respuesta.json()
+    except ValueError as error:
+        # Pasa si el portal responde con una página de error o un desafío anti-bots.
+        raise ArchivoSepaInvalido(
+            f"El portal de datos respondió {respuesta.status_code} sin JSON: "
+            f"{respuesta.text[:200]!r}"
+        ) from error
     recursos = [
         r
         for r in datos["result"]["resources"]

@@ -8,12 +8,14 @@ Estructura (versión 1), dentro de la carpeta de salida:
 
     v1/manifiesto.json   fecha, cantidades, fragmentos y la versión del formato
     v1/comercios.json    sucursales: posición = índice que usan los precios
-    v1/productos.json    catálogo para buscar: ean, nombre, marca, tipo, contenido,
-                         unidad, precio más bajo y sucursales. El índice de cada fila es
-                         el número de producto; su fragmento es índice % fragmentos.
+    v1/productos.json    catálogo para buscar: clave, ean, nombre, marca, tipo,
+                         contenido, unidad, precio más bajo y sucursales
     v1/leyendas.json     textos de oferta, referenciados por índice
-    v1/p/<n>.json        {número de producto: {"id": uuid, "p": [[sucursal, lista,
-                         oferta, leyenda], ...]}}
+    v1/p/<n>.json        {clave: {"id": uuid, "p": [[sucursal, lista, oferta, leyenda]]}}
+
+La clave de producto son los primeros 12 dígitos hexadecimales de su UUID: estable día
+a día (sirve para links y listas guardadas) y un tercio del largo. Su fragmento es
+fragmento_de(clave), así la app y el servidor saben qué archivo pedir sin el catálogo.
 
 Los ids de producto y sucursal son UUID5 deterministas (del EAN o de la clave de SEPA):
 el servidor y la app llegan al mismo id sin consultarse, así un reporte de stock de la
@@ -55,9 +57,9 @@ FRAGMENTOS = 512
 _ESPACIO = uuid.UUID("6f1d3c52-8e0b-4b8e-9a51-2a7c0b1d9e42")
 
 CAMPOS_COMERCIO = ["id", "cadena", "nombre", "direccion", "barrio", "provincia", "lat", "lon"]
-# Sin el id (UUID): ocupa un tercio del archivo y solo hace falta en la ficha, que
-# igual baja el fragmento.
+# El UUID completo va solo en el fragmento (lo usa la ficha para hablar con el servidor).
 CAMPOS_PRODUCTO = [
+    "clave",
     "ean",
     "nombre",
     "marca",
@@ -67,6 +69,14 @@ CAMPOS_PRODUCTO = [
     "minimo",
     "sucursales",
 ]
+
+
+def clave_de(producto_id: str) -> str:
+    return producto_id.replace("-", "")[:12]
+
+
+def fragmento_de(clave: str) -> int:
+    return int(clave[:6], 16) % FRAGMENTOS
 
 
 def id_producto(ean: str | None, descripcion: str) -> str:
@@ -266,10 +276,11 @@ class Constructor:
         (destino / "p").mkdir(parents=True, exist_ok=True)
         fragmentos: list[dict[str, dict]] = [{} for _ in range(FRAGMENTOS)]
         filas_productos = []
-        for i, (producto, p) in enumerate(zip(self.productos, self.precios, strict=True)):
-            frag = i % FRAGMENTOS
+        for producto, p in zip(self.productos, self.precios, strict=True):
+            clave = clave_de(producto[0])
+            frag = fragmento_de(clave)
             vigentes = [o or li for li, o in zip(p.lista, p.oferta, strict=True)]
-            filas_productos.append([*producto[1:], _numero(min(vigentes)), len(vigentes)])
+            filas_productos.append([clave, *producto[1:], _numero(min(vigentes)), len(vigentes)])
             filas = []
             for s, li, o, ley in zip(p.sucursal, p.lista, p.oferta, p.leyenda, strict=True):
                 fila = [s, _numero(li)]
@@ -277,7 +288,7 @@ class Constructor:
                     fila += [_numero(o), ley]
                 filas.append(fila)
             filas.sort()
-            fragmentos[frag][str(i)] = {"id": producto[0], "p": filas}
+            fragmentos[frag][clave] = {"id": producto[0], "p": filas}
 
         def guardar(nombre: str, datos: object) -> None:
             (destino / nombre).write_text(

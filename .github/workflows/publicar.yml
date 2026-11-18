@@ -38,7 +38,7 @@ jobs:
           set -e
           test -f sitio/v1/manifiesto.json
           python3 -c "import json; m=json.load(open('sitio/v1/manifiesto.json')); assert m['version']==1 and m['precios']>100000, m; print(m)"
-          rm -rf sitio/.git
+          rm -rf sitio/.git sitio/.github
           cp main/pagina/index.html sitio/index.html
           touch sitio/.nojekyll
       - uses: actions/upload-pages-artifact@v3

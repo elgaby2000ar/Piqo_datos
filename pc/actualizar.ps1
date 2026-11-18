@@ -26,7 +26,9 @@ try {
         if ($publicado.fecha -eq $nuevo.fecha) { Anotar "Ya estaba publicado el $($nuevo.fecha)"; exit 0 }
     } catch { }
 
-    # Rama sin historia: un solo commit que reemplaza al de ayer.
+    # Rama sin historia: un solo commit que reemplaza al de ayer. Lleva el workflow
+    # para que el push lo dispare (GitHub lo busca en la rama que llega).
+    Copy-Item -Recurse (Join-Path $repo ".github") (Join-Path $sitio ".github")
     Push-Location $sitio
     git init --quiet
     git checkout --quiet -b paquete

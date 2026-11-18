@@ -28,6 +28,7 @@ Corre a las 14:00 y 18:30; si la PC estaba apagada, apenas se prende. Registro e
 | `comercios.json` | sucursales: `id, cadena, nombre, direccion, barrio, provincia, lat, lon`; su posición es el número de sucursal |
 | `productos.json` | catálogo: `ean, nombre, marca, categoria, contenido, unidad, minimo, sucursales`; su posición es el número de producto |
 | `leyendas.json` | textos de las ofertas |
+| `promos.json` | promos bancarias vigentes (mismo formato que `GET /api/v1/promos` de Piqo); sale de `promos/promos.json` de `main`, que se actualiza una vez por semana |
 | `p/<n>.json` | `{número de producto: {"id": uuid, "p": [[sucursal, lista, oferta, leyenda], ...]}}` con `n = número de producto % fragmentos` |
 
 Los ids son UUID5 deterministas (del EAN o de la clave de sucursal de SEPA): el servidor

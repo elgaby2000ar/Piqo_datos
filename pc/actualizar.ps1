@@ -29,6 +29,10 @@ try {
     # Rama sin historia: un solo commit que reemplaza al de ayer. GitHub Pages publica
     # esta rama tal cual (".nojekyll": sin procesar nada).
     Copy-Item (Join-Path $repo "pagina/index.html") (Join-Path $sitio "index.html")
+    # Promos bancarias: se actualizan una vez por semana en promos/promos.json (main) y
+    # viajan con cada paquete diario, así la app no depende del servidor para mostrarlas.
+    $promos = Join-Path $repo "promos/promos.json"
+    if (Test-Path $promos) { Copy-Item $promos (Join-Path $sitio "v1/promos.json") }
     New-Item -ItemType File -Force (Join-Path $sitio ".nojekyll") | Out-Null
     Push-Location $sitio
     git init --quiet

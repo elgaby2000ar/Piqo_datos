@@ -1,0 +1,1619 @@
+{
+ "actualizado": "2026-11-17T09:00:00Z",
+ "promos": [
+  {
+   "fuente": "carrefour",
+   "titulo": "20% de descuento en un pago con Cuenta Digital de Carrefour Banco",
+   "cadenas": [
+    "Carrefour"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    3
+   ],
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "Carrefour Banco",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "20",
+   "cuotas": null,
+   "monto": null,
+   "tope": "10000",
+   "tope_periodo": "semana",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": true,
+   "exclusiones": [
+    "bazar",
+    "carnes",
+    "electro",
+    "frutas_verduras",
+    "leches_infantiles",
+    "ofertas_por_bulto",
+    "textil",
+    "vinos_seleccionados"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "DESCUENTO EXCLUSIVO ABONANDO CON CUENTA DIGITAL DE CARREFOUR BANCO. VÁLIDO TODOS LOS JUEVES DE NOVIEMBRE 2026 PARA LAS COMPRAS ONLINE EN CARREFOUR.COM.AR Y EN LA APP DE CARREFOUR. APLICABLE TANTO A COMPRAS CON ENTREGA INMEDIATA COMO A COMPRAS CON ENTREGA PROGRAMADA. NO VÁLIDO EN LAS TIENDAS HIPERMERCADOS CARREFOUR, CARREFOUR MARKET, CARREFOUR EXPRESS, CARREFOUR MAXI NI EN COMERCIANTE.CARREFOUR.COM.AR. EL DESCUENTO SE HARÁ EFECTIVO EN EL ACTO, CON TOPE DE DESCUENTO DE $10.000 POR SEMANA, EXCLUSIVO SOLO PARA CONSUMO FAMILIAR. ACUMULABLE CON TODAS LAS PROMOCIONES VIGENTES. QUEDAN EXCLUIDOS DEL DESCUENTO ELECTRODOMÉSTICOS Y TECNOLOGÍA; CARNICERÍA: CARNE DE VACA, CERDO, POLLO, ACHURAS Y EMBUTIDOS; LECHES INFANTILES Y MATERNIZADAS ETAPA 1 Y 2; FRUTAS Y VERDURAS; BAZAR; TEXTIL; PRODUCTOS DE VENTA AL BULTO Y PACK FAMILIAR; ENVASES; BODEGAS [...]. LA PROMOCIÓN NO APLICA A PAGOS A TRAVÉS DE BILLETERAS VIRTUALES Y/O PLATAFORMAS DE PAGO ONLINE (POR EJEMPLO, PAYPAL, TODO PAGO, MERCADO PAGO, UALÁ, ETC.) NO APLICA EN OPERACIONES REALIZADAS CON DOS O MÁS MEDIOS DE PAGO COMBINADOS.",
+   "id": "demo-000",
+   "cuando": "Todos los Jueves de Noviembre"
+  },
+  {
+   "fuente": "carrefour",
+   "titulo": "15% de descuento en tu compra con Cuenta Digital de Carrefour Banco.",
+   "cadenas": [
+    "Carrefour",
+    "Carrefour Market",
+    "Carrefour Express"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    4
+   ],
+   "desde": "2026-09-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "Carrefour Banco",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "15",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": true,
+   "exclusiones": [
+    "bazar",
+    "carnes",
+    "electro",
+    "fiambreria",
+    "frutas_verduras",
+    "huevos",
+    "ofertas_por_bulto",
+    "textil"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "DESCUENTO EXCLUSIVO ABONANDO CON CUENTA DIGITAL DE CARREFOUR BANCO. VÁLIDO TODOS LOS VIERNES DEL 1 AL 30 DE NOVIEMBRE DE 2026 EN LAS TIENDAS \"HIPERMERCADOS CARREFOUR\", \"CARREFOUR MARKET\", \"CARREFOUR EXPRESS”. Y PARA COMPRAS ONLINE EN CARREFOUR.COM.AR, NO VÁLIDO PARA AQUELLOS PRODUCTOS CUYA LEYENDA INDIQUE QUE SON VENDIDOS Y ENTREGADOS DIRECTAMENTE POR EL DISTRIBUIDOR/FABRICANTE, A TRAVÉS DE LA PLATAFORMA MARKETPLACE DE CARREFOUR. EL DESCUENTO SE HARÁ EFECTIVO EN EL ACTO SIN TOPE, EXCLUSIVO SOLO PARA CONSUMO FAMILIAR. NO INCLUYE CARNICERÍA, HUEVOS DE GALLINA, FIAMBRERIA, FRUTAS, VERDURAS, ELECTROS, BAZAR, FERRETERÍA, AUTOMOTOR, JUGUETERÍA LIBRERÍA, COCINA, JARDINERÍA, TEXTIL, OFERTÓN POR BULTO, PACK FAMILIAR , PRECIO SÚPER BAJO, NI PRODUCTOS DE LA CAMPAÑA \"BAJAMOS LOS PRECIOS\". ACUMULABLE CON TODAS LAS PROMOCIONES VIGENTES. NO APLICA EN OPERACIONES REALIZADAS CON DOS O MÁS MEDIOS DE PAGO COMBINADOS.",
+   "id": "demo-001",
+   "cuando": "Viernes de Noviembre"
+  },
+  {
+   "fuente": "carrefour",
+   "titulo": "Hasta 3 Cuotas sin interés con Mercado Pago",
+   "cadenas": [
+    "Carrefour"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    0,
+    2
+   ],
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "tipo": "cuotas",
+   "entidad": "Mercado Pago",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": null,
+   "cuotas": 3,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": null,
+   "exclusiones": [],
+   "requisitos": [],
+   "regional": false,
+   "legal": "BENEFICIO VÁLIDO EXCLUSIVAMENTE EN LA REPÚBLICA ARGENTINA, HASTA EL 30/11/2026. EL BENEFICIO CONSISTE 3 CUOTAS SIN INTERÉS PAGANDO CON LA OPCIÓN CUOTAS SIN TARJETAS. FINANCIACIÓN EXCLUSIVA ABONANDO CON LA OPCIÓN CUOTAS SIN TARJETA DE MERCADO PAGO, SUJETA A REVISIÓN CREDITICIA. HASTA 3 CUOTAS SIN INTERÉS TEM = TASA EFECTIVA MENSUAL 0,00%, CFT = COSTO FINANCIERO TOTAL 0,00% CON IVA Y SIN IVA. EXCLUSIVO SOLO PARA CONSUMO FAMILIAR.",
+   "id": "demo-002",
+   "cuando": "Lunes y Miércoles de Noviembre"
+  },
+  {
+   "fuente": "carrefour",
+   "titulo": "10% de descuento si sos parte de Mi Carrefour y beneficiario de Anses o mayor de 60 años.",
+   "cadenas": [
+    "Carrefour",
+    "Carrefour Market",
+    "Carrefour Express",
+    "Carrefour Maxi"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    0,
+    1,
+    2
+   ],
+   "desde": "2026-09-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "Mi Carrefour",
+   "redes": [],
+   "medios": [
+    "club"
+   ],
+   "porcentaje": "10",
+   "cuotas": null,
+   "monto": null,
+   "tope": "35000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "carnes",
+    "electro",
+    "huevos",
+    "leches_infantiles",
+    "vinos_seleccionados"
+   ],
+   "requisitos": [
+    "jubilado"
+   ],
+   "regional": false,
+   "legal": "VÁLIDO DE LUNES A MIÉRCOLES HASTA EL 30/11/26 INCLUSIVE. EXCLUSIVO EN HIPERMERCADOS CARREFOUR, CARREFOUR MARKET, CARREFOUR EXPRESS, CARREFOUR.COM.AR Y EN EL CASO DE CARREFOUR MAXI PARA COMPRAS DE CLIENTES MINORISTAS. TOPE DE DESCUENTO MENSUAL: $35.000. VÁLIDO CON MI CARREFOUR PARA MAYORES DE 60 AÑOS O ANSES. BENEFICIO NO ACUMULABLE CON OTRAS PROMOCIONES. NO INCLUYE ELECTRO, MOTOS, CUATRICICLOS, BICICLETAS MOTORIZADAS, TRACTORES, * LA PROMOCIÓN NO INCLUYE LAS SIGUIENTES BODEGAS Y MARCAS: [...]. LECHES INFANTILES Y MATERNIZADAS ETAPA 1 Y 2 NI CARNICERÍA: CARNE VACUNA, POLLO, CORTES DE CERDO, EMBUTIDOS Y HUEVOS DE GALLINA.",
+   "id": "demo-003",
+   "cuando": "Lunes, Martes, Miércoles de Noviembre"
+  },
+  {
+   "fuente": "carrefour",
+   "titulo": "15% de Ahorro con tarjeta de débito y en un pago con tarjeta de credito Visa, Mastercard y Amex.",
+   "cadenas": [
+    "Carrefour",
+    "Carrefour Market",
+    "Carrefour Express",
+    "Carrefour Maxi"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    2
+   ],
+   "desde": "2026-09-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "Patagonia",
+   "redes": [
+    "visa"
+   ],
+   "medios": [
+    "credito",
+    "debito"
+   ],
+   "porcentaje": "15",
+   "cuotas": null,
+   "monto": null,
+   "tope": "10000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "carnes",
+    "electro",
+    "huevos",
+    "leches_infantiles",
+    "vinos_seleccionados"
+   ],
+   "requisitos": [
+    "plan_sueldo"
+   ],
+   "regional": false,
+   "legal": "PROMOCIÓN VÁLIDA LOS DÍAS MIERCOLES HASTA EL 30/11/2026. PARA COMPRAS REALIZADAS CON TARJETA DE DÉBITO Y EN 1 PAGO CON TARJETAS DE CRÉDITO VISA EMITIDAS POR EL BANCO PATAGONIA QUE COBREN SUS HABERES EN LA ENTIDAD. VÁLIDO PARA HIPERMERCADOS CARREFOUR, CARREFOUR MARKET, CARREFOUR EXPRESS Y CARREFOUR MAXI. (1) 20% DE AHORRO CON TOPE DE $15.000 POR MES Y POR CUENTA EN UN PAGO CON TARJETAS DE DÉBITO Y CRÉDITO VISA DEL BANCO PATAGONIA EXCLUSIVO PARA CLIENTES CON PLAN SUELDO. QUEDAN EXCLUIDOS DE LOS DESCUENTOS ELECTRODOMÉSTICOS, TELEFONÍA, FOTOGRAFÍA, INFORMÁTICA, IMAGEN Y SONIDO, MOTOS, LAS SIGUIENTES BODEGAS Y MARCAS: [...], LECHES INFANTILES Y MATERNIZADAS ETAPA 1 Y 2, CARNICERÍA NI CONSERVADORAS DE CERVEZA: CARNE VACUNA, POLLO, CORTES DE CERDOS, EMBUTIDO Y HUEVOS DE GALLINA. NO ACUMULABLE CON OTRAS PROMOCIONES VIGENTES.",
+   "id": "demo-004",
+   "cuando": "Todos los Miércoles de Noviembre"
+  },
+  {
+   "fuente": "carrefour",
+   "titulo": "20% de descuento con Tarjeta de Crédito de Carrefour Banco. En el acto ¡Sin Tope!",
+   "cadenas": [
+    "Carrefour",
+    "Carrefour Market",
+    "Carrefour Express"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    1
+   ],
+   "desde": "2026-09-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "Carrefour Banco",
+   "redes": [
+    "mastercard"
+   ],
+   "medios": [
+    "credito"
+   ],
+   "porcentaje": "20",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "carnes",
+    "electro",
+    "huevos",
+    "leches_infantiles",
+    "vinos_seleccionados"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "SUJETO A CONDICIONES DE OTORGAMIENTO Y/O APROBACIÓN CREDITICIA. 20% DE DESCUENTO EXCLUSIVO ABONANDO CON TARJETA DE CRÉDITO DE CARREFOUR BANCO. VÁLIDO LOS MARTES A PARTIR DE MAYO 2024 HASTA EL 30 DE NOVIEMBRE DE 2026. EN LAS TIENDAS \"HIPERMERCADOS CARREFOUR\", \"CARREFOUR MARKET\", \"CARREFOUR EXPRESS\" DE TODO EL PAÍS Y PARA COMPRAS ON LINE EN CARREFOUR.COM.AR. NO VÁLIDOS EN CARREFOUR MAXI. LOS DESCUENTOS SE HARÁN EFECTIVOS EN EL ACTO SIN TOPE, DESCUENTOS NO VALIDOS ABONANDO A TRAVÉS DE PLATAFORMAS DIGITALES DE PAGO. EXCLUSIVOS PARA CONSUMO FAMILIAR. NO ACUMULABLES CON OTRAS PROMOCIONES VIGENTES. QUEDAN EXCLUIDOS DE LOS DESCUENTOS ELECTRODOMÉSTICOS, TELEFONÍA, FOTOGRAFÍA, INFORMÁTICA, IMAGEN, SONIDO, PRODUCTOS DE BODEGAS [...], LECHES INFANTILES Y MATERNIZADAS ETAPAS 1 Y 2, CARNICERIA (HUEVOS DE GALLINA, CARNE VACUNA, POLLO, CERDO Y EMBUTIDOS) Y CONSERVADORAS DE CERVEZA.",
+   "id": "demo-005",
+   "cuando": "Todos los Martes de Noviembre"
+  },
+  {
+   "fuente": "carrefour",
+   "titulo": "Si sos empleado/a público todos los jueves",
+   "cadenas": [
+    "Carrefour",
+    "Carrefour Market",
+    "Carrefour Express",
+    "Carrefour Maxi"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    3
+   ],
+   "desde": "2026-09-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": null,
+   "redes": [],
+   "medios": [],
+   "porcentaje": "15",
+   "cuotas": null,
+   "monto": null,
+   "tope": "20000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [],
+   "requisitos": [
+    "empleado_publico"
+   ],
+   "regional": true,
+   "legal": "PROMOCIÓN VÁLIDA LOS DIAS JUEVES HASTA EL 30/11/2026, EXCLUSIVO EN HIPERMERCADOS CARREFOUR Y CARREFOUR MARKET DE LAS PROVINCIAS DE: SANTA FE, FORMOSA, NEUQUÉN, SALTA, RÍO NEGRO, TIERRA DEL FUEGO, Y DE LAS CUIDADES DE: MAR DEL PLATA, TANDIL, BALCARCE, PERGAMINO, BAHÍA BLANCA, OLAVARRÍA Y SAN NICOLÁS.. VÁLIDO PARA EMPLEADAS/OS PÚBLICOS QUE TRABAJEN EN: EDUCACIÓN, JUSTICIA, REGISTRO, ENERGÍA , CULTURA, SALUD, CUALQUIER DEPENDENCIA NACIONAL, PROVINCIAL O MUNICIPAL. NO VÁLIDO EN CARREFOUR EXPRESS, CARREFOUR MAXI NI EN CARREFOUR.COM.AR. NO ACUMULABLE CON OTRAS PROMOCIONES VIGENTES. SÓLO PARA CONSUMO FAMILIAR. TOPE MÁXIMO DE DESCUENTO MENSUAL $ 20.000.",
+   "id": "demo-006",
+   "cuando": "Todos los jueves de Noviembre"
+  },
+  {
+   "fuente": "carrefour",
+   "titulo": "10% de descuento en tu compra con Cuenta DNI ¡Sin Tope!. Y si sos jubilado, tenes 5% de descuento adicional.",
+   "cadenas": [
+    "Carrefour",
+    "Carrefour Market",
+    "Carrefour Express"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    2
+   ],
+   "desde": "2025-09-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "Cuenta DNI",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "10",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": "20000",
+   "acumulable": true,
+   "exclusiones": [
+    "bazar",
+    "carnes",
+    "electro",
+    "fiambreria",
+    "frutas_verduras",
+    "huevos",
+    "ofertas_por_bulto",
+    "textil"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "PROMOCIÓN VÁLIDA TODOS LOS MIÉRCOLES HASTA EL 30/11/2026 INCLUSIVE. PARA COMPRAS REALIZADAS A TRAVÉS DE LA FUNCIONALIDAD \"PAGO CLAVE DNI\" Y/O QR DE LA APLICACIÓN CUENTA DNI EN TODAS LAS TIENDAS HIPERMERCADOS CARREFOUR, CARREFOUR MARKET Y CARREFOUR EXPRESS. BONIFICACIÓN DEL 10%. SIN TOPE DE REINTEGRO. EL DESCUENTO SE REALIZARÁ EN EL MOMENTO DE LA COMPRA. VÁLIDA ÚNICAMENTE PARA VENTA MINORISTA, SE EXCLUYEN DE LA PROMOCIÓN NO INCLUYE CARNICERÍA, HUEVOS DE GALLINA, FRUTAS, VERDURAS,FIAMBRERIA, ELECTROS, BAZAR, TEXTIL, OFERTÓN POR BULTO, PACK FAMILIAR, PRECIO SÚPER BAJO TODOS LOS DÍAS, NI PRODUCTOS DE LA CAMPAÑA \"BAJAMOS LOS PRECIOS\". ACUMULABLE CON PRODUCTOS EN OFERTA. LA PROMOCIÓN NO APLICA A COMPRAS REALIZADAS CON CUENTA DNI MEDIANTE LA LECTURA DEL CÓDIGO QR DE MERCADO PAGO U OTRAS BILLETERAS DIGITALES.",
+   "id": "demo-007",
+   "cuando": "Todos los Miércoles de Noviembre"
+  },
+  {
+   "fuente": "carrefour",
+   "titulo": "15% de descuento SIN TOPE en tu compra. Acumulable con todas las promos.",
+   "cadenas": [
+    "Carrefour",
+    "Carrefour Market",
+    "Carrefour Express"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    3
+   ],
+   "desde": "2026-09-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "Mercado Pago",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "15",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": "20000",
+   "acumulable": true,
+   "exclusiones": [
+    "bazar",
+    "carnes",
+    "electro",
+    "fiambreria",
+    "frutas_verduras",
+    "huevos",
+    "ofertas_por_bulto",
+    "textil"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "BENEFICIO VÁLIDO EXCLUSIVAMENTE EN LA REPÚBLICA ARGENTINA, HASTA EL 30/11/2026. PARA PAGOS REALIZADOS A TRAVÉS DEL SERVICIO DE PROCESAMIENTO DE PAGOS DE MERCADO PAGO A TRAVÉS DEL ESCANEO DEL CÓDIGO QR CON LA APP DE MERCADO PAGO, ELIGIENDO COMO MEDIO DE PAGO DINERO EN CUENTA. EL BENEFICIO CONSISTE ENUN 15% DE DESCUENTO, SIN TOPE DE REINTEGRO, EN TODA TU COMPRA EN TODAS LAS SUCURSALES DE HIPERMERCADOS CARREFOUR,CARREFOUR MARKET Y CARREFOUR EXPRESS. NO VALIDO PARA WWW.CARREFOUR.COM.AR NI CARREFOUR MAXI. SOLO PARA CONSUMO FAMILIAR. LA PROMOCIÓN NO INCLUYE CARNICERÍA, FIAMBRERIA, HUEVOS DE GALLINA, FRUTAS, VERDURAS, ELECTROS, BAZAR, FERRETERÍA, AUTOMOTOR, JUGUETERÍA LIBRERÍA, COCINA, JARDINERÍA, TEXTIL, OFERTÓN POR BULTO, PACK FAMILIAR NI PRECIO SÚPER BAJO,NI PRODUCTOS DE LA CAMPAÑA \"BAJAMOS LOS PRECIOS\". MINIMO DE COMPRA $20.000.",
+   "id": "demo-008",
+   "cuando": "Todos los jueves de Noviembre"
+  },
+  {
+   "fuente": "carrefour",
+   "titulo": "10% OFF Todos los Medios de Pago - EXCLUSIVO ONLINE",
+   "cadenas": [
+    "Carrefour"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    3
+   ],
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": null,
+   "redes": [],
+   "medios": [],
+   "porcentaje": "10",
+   "cuotas": null,
+   "monto": null,
+   "tope": "8000",
+   "tope_periodo": "semana",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": true,
+   "exclusiones": [
+    "carnes",
+    "electro",
+    "leches_infantiles",
+    "vinos_seleccionados"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "DESCUENTO EXCLUSIVO PARA COMPRAS REALIZADAS EN 1 PAGO, ABONANDO CON CUALQUIER MEDIO DE PAGO. VÁLIDO TODOS LOS JUEVES DE NOVIEMBRE 2026 PARA LAS COMPRAS ONLINE EN CARREFOUR.COM.AR Y EN LA APP DE CARREFOUR. NO VÁLIDO EN LAS TIENDAS HIPERMERCADOS CARREFOUR, CARREFOUR MARKET, CARREFOUR EXPRESS, CARREFOUR MAXI NI EN COMERCIANTE.CARREFOUR.COM.AR. EL DESCUENTO SE HARÁ EFECTIVO EN EL ACTO, CON TOPE DE DESCUENTO DE $8.000 POR SEMANA, EXCLUSIVO SOLO PARA CONSUMO FAMILIAR. ACUMULABLE CON TODAS LAS PROMOCIONES VIGENTES. QUEDAN EXCLUIDOS DEL DESCUENTO ELECTRODOMÉSTICOS Y TECNOLOGÍA; CARNICERÍA: CARNE DE VACA, CERDO, POLLO, ACHURAS Y EMBUTIDOS; LECHES INFANTILES Y MATERNIZADAS ETAPA 1 Y 2; ENVASES; BODEGAS [...]. NO APLICA EN OPERACIONES REALIZADAS CON DOS O MÁS MEDIOS DE PAGO COMBINADOS.",
+   "id": "demo-009",
+   "cuando": "Jueves de Noviembre"
+  },
+  {
+   "fuente": "cencosud",
+   "titulo": "12 cuotas sin interés con Visa y Master",
+   "cadenas": [
+    "Vea",
+    "Disco",
+    "Jumbo"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "desde": "2026-05-01",
+   "hasta": "2026-11-30",
+   "tipo": "cuotas",
+   "entidad": null,
+   "redes": [
+    "visa",
+    "mastercard"
+   ],
+   "medios": [
+    "credito"
+   ],
+   "porcentaje": null,
+   "cuotas": 12,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": null,
+   "exclusiones": [
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "VÁLIDO PARA COMPRAS PRESENCIALES Y ONLINE DESDE EL 01/07/2026 AL 30/11/2026, OBTENIENDO 12 CUOTAS SIN INTERÉS EN ELECTROS, ABONANDO CON TARJETAS DE CRÉDITO VISA Y MASTERCARD BANCARIAS, EN LOCALES ADHERIDOS. NO INCLUYE PEQUEÑOS ELECTROS.",
+   "id": "demo-010",
+   "cuando": "VÁLIDO PARA COMPRAS PRESENCIALES Y ONLINE DESDE EL 01/07/2026 AL 30/11/2026 EN ELECTROS. NO INCLUYE PEQUEÑOS ELECTROS."
+  },
+  {
+   "fuente": "cencosud",
+   "titulo": "10% de descuento con cualquier medio de pago",
+   "cadenas": [
+    "Disco"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    2
+   ],
+   "desde": "2021-04-01",
+   "hasta": "2026-12-31",
+   "tipo": "porcentaje",
+   "entidad": null,
+   "redes": [],
+   "medios": [],
+   "porcentaje": "10.00",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "electro",
+    "vinos_seleccionados"
+   ],
+   "requisitos": [
+    "jubilado"
+   ],
+   "regional": true,
+   "legal": "JUBILADOS: 10% de descuento exclusivo para Jubilados y mayores de 60 años, válido todos los miércoles para compras presenciales en los locales Disco habilitados de la provincia de Córdoba y para compras realizadas en Disco.com.ar. Válido únicamente para consumidor final. No incluye productos del sector Electro ni las siguientes bodegas y marcas: [...].",
+   "id": "demo-011",
+   "cuando": "Comprando los días Miércoles. Exclusivo para compras presenciales y compras telefónicas llamando al 0810-777-8888 |10% Descuento para Jubilados y mayores de 60 años. Abonando con cualquier medio de pa"
+  },
+  {
+   "fuente": "cencosud",
+   "titulo": "20% de descuento con MODO",
+   "cadenas": [
+    "Disco"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    4,
+    5
+   ],
+   "desde": "2026-06-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "MODO",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "20.00",
+   "cuotas": null,
+   "monto": null,
+   "tope": "25000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": "100000",
+   "acumulable": true,
+   "exclusiones": [],
+   "requisitos": [],
+   "regional": false,
+   "legal": "Promoción válida en la República Argentina los días viernes y sábados, del 01/06/2026 al 30/11/2026 inclusive, para compras realizadas en comercios adheridos participantes, tanto en modalidad presencial como online. Válido para pagos efectuados mediante la billetera MODO con tarjetas de débito adheridas o con tarjetas de crédito adheridas en 1 (una) cuota. El beneficio es acumulable con otras promociones vigentes que apliquen pagando con MODO. Se otorgará un reintegro conforme las condiciones de cada entidad financiera adherida, con un tope máximo de reintegro de $25.000 por banco, por usuario y por mes calendario, para compras iguales o superiores a $100.000.",
+   "id": "demo-012",
+   "cuando": "Hacé tus compras los días Viernes y Sábados, del 01/06/2026 al 30/11/2026 y podes programar o el envío o retirar tu pedido el día que quieras. Válido para pagos efectuados mediante la billetera MODO c"
+  },
+  {
+   "fuente": "cencosud",
+   "titulo": "25% de descuento con Hipotecario",
+   "cadenas": [
+    "Disco",
+    "Jumbo"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    1
+   ],
+   "desde": "2024-12-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "Hipotecario",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "25.00",
+   "cuotas": null,
+   "monto": null,
+   "tope": "15000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "carnes",
+    "electro",
+    "vinos_seleccionados"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "PUBLICIDAD CARTERA CONSUMO. PROMOCIÓN VÁLIDA EN LA REPÚBLICA ARGENTINA LOS MARTES EN SUCURSALES DESDE EL 01/01/2026 HASTA EL 30/11/2026, AMBOS INCLUSIVE, BENEFICIO EXCLUSIVO PAGANDO CON TARJETA DE DÉBITO VISA EMITIDA POR BANCO HIPOTECARIO SA QUE NO REGISTREN MORA, MEDIANTE LA MODALIDAD DE PAGO CON “QR” A TRAVÉS DE “MODO” DESDE APP BH O APP MODO. SE OTORGARÁ UN DESCUENTO VÍA REINTEGRO DEL 25% CON TOPE MENSUAL POR CLIENTE (CONSIDERANDO LA SUMA DE LOS CONSUMOS REALIZADOS POR EL CLIENTE DURANTE EL MES). TOPES DE REINTEGRO: PARA TODOS LOS CLIENTES: $15.000. NO ACUMULABLE CON OTRAS PROMOCIONES, NI CARTERA DE CLIENTES QUE ACREDITEN PLANES SOCIALES. SE EXCLUYE EL RUBRO ELECTRO, CARNES, BODEGAS [...]",
+   "id": "demo-013",
+   "cuando": "VÁLIDO PRESENCIAL | TODOS LOS MARTES DESDE EL 01/01/2026 HASTA EL 30/11/2026 25% de descuento con tarjeta de debito– Desde App Hipotecario o App Modo. TOPES DE REINTERO: PARA TODOS LOS CLIENTES: $15.0"
+  },
+  {
+   "fuente": "cencosud",
+   "titulo": "25% de descuento con Supervielle",
+   "cadenas": [
+    "Vea",
+    "Disco",
+    "Jumbo"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    1
+   ],
+   "desde": "2023-02-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "Supervielle",
+   "redes": [],
+   "medios": [
+    "debito"
+   ],
+   "porcentaje": "25.00",
+   "cuotas": null,
+   "monto": null,
+   "tope": "25000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [],
+   "requisitos": [
+    "jubilado"
+   ],
+   "regional": false,
+   "legal": "JUBILADO: CARTERA CONSUMO. Vigente en la República Argentina los días martes de Septiembre, Octubre y Noviembre de 2026 para clientes que perciban su jubilación en el Banco y que realicen compras presenciales en locales con la tarjeta de débito Visa (“la TD”). Tope de reintegro mensual por cuenta (considerando la suma de los consumos realizados por el cliente, durante el mes, en cualquiera de los supermercados adheridos): $25.000. No aplica a pagos realizados a través de billeteras virtuales o 'proveedores de servicios de pago', excepto MODO. No acumulable con otros descuentos, excepto los promovidos por el Banco o MODO para pagos con QR.",
+   "id": "demo-014",
+   "cuando": "MARTES JUBILADOS Válido para compras presenciales 25% de ahorro con tope mensual por cuenta de $25.000 para pagos con TD de jubilados."
+  },
+  {
+   "fuente": "cencosud",
+   "titulo": "$100.000 de reintegro con American Express",
+   "cadenas": [
+    "Disco",
+    "Jumbo"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    3
+   ],
+   "desde": "2026-02-01",
+   "hasta": "2026-11-30",
+   "tipo": "monto_fijo",
+   "entidad": "American Express",
+   "redes": [],
+   "medios": [
+    "credito"
+   ],
+   "porcentaje": null,
+   "cuotas": null,
+   "monto": "100000.00",
+   "tope": "100000.00",
+   "tope_periodo": null,
+   "sin_tope": false,
+   "minimo": "400000",
+   "acumulable": false,
+   "exclusiones": [
+    "carnes",
+    "electro",
+    "vinos_seleccionados"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "BENEFICIO VÁLIDO EN LA REPÚBLICA ARGENTINA PARA SOCIOS DE TARJETAS PERSONALES “THE PLATINUM CARD” –TITULARES O ADICIONALES- EMITIDAS Y ADMINISTRADAS POR AMERICAN EXPRESS ARGENTINA S.A ÚNICAMENTE (I) PROGRAMANDO LA ENTREGA DE LAS COMPRAS PARA LOS DÍAS JUEVES DEL MES, EN EL CASO DE COMPRAS ONLINE Y/O (II) COMPRANDO LOS DÍAS JUEVES DE MANERA PRESENCIAL. NO ACUMULABLE CON OTRAS PROMOCIONES Y/O DESCUENTOS VIGENTES.",
+   "id": "demo-015",
+   "cuando": "VÁLIDO HACIENDO TU COMPRA CUALQUIER DÍA Y PROGRAMANDO LA ENTREGA LOS DÍAS JUEVES DEL MES, EN EL CASO DE COMPRAS ONLINE. VÁLIDO PARA COMPRAS POR UN UNA SUMA IGUAL O SUPERIOR A TOTAL DE $400.000 EN EL M"
+  },
+  {
+   "fuente": "cencosud",
+   "titulo": "25% de descuento con CencoPay",
+   "cadenas": [
+    "Vea",
+    "Disco",
+    "Jumbo"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    0
+   ],
+   "desde": "2026-05-08",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "CencoPay",
+   "redes": [],
+   "medios": [
+    "credito"
+   ],
+   "porcentaje": "25.00",
+   "cuotas": null,
+   "monto": null,
+   "tope": "15000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "PROMOCIÓN VÁLIDA CON CENCOPAY CUENTA EXCLUSIVO PRESENCIAL. TODOS LOS LUNES DESDE EL 01/10/2026 AL 30/11/2026 EN LOS LOCALES HABILITADOS DEL PAÍS, OBTENIENDO UN 25% DE DESCUENTO EN TODA LA COMPRA. TOPE DE REINTEGRO $15.000( QUINCE MIL PESOS ARGENTINOS) POR MES. NO INCLUYE ELECTRODOMÉSTICOS. ESTA PROMOCIÓN NO APLICA PARA COMPRAS REALIZADAS EN LOS LOCALES \"VEA EXPRESS Y DISCO EXPRESS\". NO ACUMULABLE CON OTRAS PROMOCIONES Y/O DESCUENTOS.",
+   "id": "demo-016",
+   "cuando": "PROMOCIÓN VÁLIDA CON CENCOPAY CUENTA EXCLUSIVO PRESENCIAL.TODOS LOS LUNES DESDE EL 01/10/2026 AL 30/11/2026 EN LOS LOCALES HABILITADOS."
+  },
+  {
+   "fuente": "coto",
+   "titulo": "30% de descuento En un pago con tarjetas de crédito Visa y Mastercard.",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    3
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Columbia",
+   "redes": [
+    "visa",
+    "mastercard"
+   ],
+   "medios": [
+    "credito"
+   ],
+   "porcentaje": "30",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "En un pago con tarjetas de crédito Visa y Mastercard. Sin tope de reintegro. Aplican exclusiones. Ver legales.",
+   "id": "demo-017",
+   "cuando": "Jueves"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "30% de descuento PLAN SUELDO En un pago con tarjetas de crédito Visa, Mastercard y Visa débito.",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    0
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "ICBC",
+   "redes": [
+    "visa",
+    "mastercard"
+   ],
+   "medios": [
+    "credito",
+    "debito"
+   ],
+   "porcentaje": "30",
+   "cuotas": null,
+   "monto": null,
+   "tope": "20000",
+   "tope_periodo": "compra",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [
+    "plan_sueldo"
+   ],
+   "regional": false,
+   "legal": "PLAN SUELDO En un pago con tarjetas de crédito Visa, Mastercard y Visa débito. Tope de Reintegro de $20.000 por transacción. Aplican exclusiones. Ver legales.",
+   "id": "demo-018",
+   "cuando": "Lunes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "20% de descuento En un pago con tarjetas de crédito Visa, Mastercard y Visa débito.",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    0
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "ICBC",
+   "redes": [
+    "visa",
+    "mastercard"
+   ],
+   "medios": [
+    "credito",
+    "debito"
+   ],
+   "porcentaje": "20",
+   "cuotas": null,
+   "monto": null,
+   "tope": "15000",
+   "tope_periodo": "compra",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "En un pago con tarjetas de crédito Visa, Mastercard y Visa débito. Tope de reintegro de $15.000 por transacción. Aplican exclusiones. Ver legales.",
+   "id": "demo-019",
+   "cuando": "Lunes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "25% de descuento En un pago con Tarjetas prepagas Visa de PERSONAL PAY",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    1
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Personal Pay",
+   "redes": [
+    "visa"
+   ],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "25",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "En un pago con Tarjetas prepagas Visa de PERSONAL PAY Sin tope de reintegro. Aplican exclusiones. Ver legal.",
+   "id": "demo-020",
+   "cuando": "Martes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "25% de descuento SGTO IDENTITÉ En un pago con tarjetas de crédito Visa y Mastercard.",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    1
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Supervielle",
+   "redes": [
+    "visa",
+    "mastercard"
+   ],
+   "medios": [
+    "credito"
+   ],
+   "porcentaje": "25",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [
+    "segmento_del_banco"
+   ],
+   "regional": false,
+   "legal": "SGTO IDENTITÉ En un pago con tarjetas de crédito Visa y Mastercard. Sin tope de reintegro. Aplican exclusiones. Ver legales.",
+   "id": "demo-021",
+   "cuando": "Martes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "20% de descuento En un pago con tarjetas de crédito Visa y Mastercard, y con tarjetas de débito Visa.",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    1
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Supervielle",
+   "redes": [
+    "visa",
+    "mastercard"
+   ],
+   "medios": [
+    "credito",
+    "debito"
+   ],
+   "porcentaje": "20",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "En un pago con tarjetas de crédito Visa y Mastercard, y con tarjetas de débito Visa. Sin tope de reintegro. Aplican exclusiones. Ver legales.",
+   "id": "demo-022",
+   "cuando": "Martes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "25% de descuento En un pago con tarjetas de crédito Visa, Mastercard y Cabal",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    0
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Banco Ciudad",
+   "redes": [
+    "visa",
+    "mastercard",
+    "cabal"
+   ],
+   "medios": [
+    "credito"
+   ],
+   "porcentaje": "25",
+   "cuotas": null,
+   "monto": null,
+   "tope": "30000",
+   "tope_periodo": null,
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "En un pago con tarjetas de crédito Visa, Mastercard y Cabal Tope de reintegro $30.000. En compras en un pago. Aplica en los productos sin oferta, aplican excluidos, ver legales.",
+   "id": "demo-023",
+   "cuando": "Lunes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "30% de descuento En un pago con tarjeta de crédito Naranja X o tarjeta Débito Naranja X VISA.",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "online"
+   ],
+   "dias": [
+    1
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Naranja X",
+   "redes": [
+    "visa"
+   ],
+   "medios": [
+    "credito",
+    "debito"
+   ],
+   "porcentaje": "30",
+   "cuotas": null,
+   "monto": null,
+   "tope": "12000",
+   "tope_periodo": "semana",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": null,
+   "exclusiones": [],
+   "requisitos": [
+    "segmento_del_banco"
+   ],
+   "regional": false,
+   "legal": "En un pago con tarjeta de crédito Naranja X o tarjeta Débito Naranja X VISA. Tope de reintegro $12.000 por semana para clientes adheridos a Plan Épico de NaranjaX",
+   "id": "demo-024",
+   "cuando": "Martes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "25% de descuento Exclusivo en sucursales. Pagando con MODO desde la app de Ciudad con tarjetas de crédito del banco",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    0
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Banco Ciudad",
+   "redes": [],
+   "medios": [
+    "credito",
+    "billetera"
+   ],
+   "porcentaje": "25",
+   "cuotas": null,
+   "monto": null,
+   "tope": "30000",
+   "tope_periodo": null,
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "Exclusivo en sucursales. Pagando con MODO desde la app de Ciudad con tarjetas de crédito del banco Tope de reintegro $30.000. Aplican exclusiones. Ver legales.",
+   "id": "demo-025",
+   "cuando": "Lunes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "25% de descuento Exclusivo en sucursales. Utilizando todos los medios de pago dentro de la app",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    4
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Mercado Pago",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "25",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "Exclusivo en sucursales. Utilizando todos los medios de pago dentro de la app Sin tope de reintegro. Aplican exclusiones. Ver legal.",
+   "id": "demo-026",
+   "cuando": "Viernes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "25% de descuento Exclusivo en sucursales. Pagando con QR desde la app de tu banco o app MODO",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    1
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "MODO",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "25",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "Exclusivo en sucursales. Pagando con QR desde la app de tu banco o app MODO Sin tope de reintegro. Aplica para compras presenciales en un pago, en los productos sin oferta. Aplican excluidos, ver legales.",
+   "id": "demo-027",
+   "cuando": "Martes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "15% de descuento Exclusivo en sucursales. En un pago si sos miembro de nuestra Comunidad. Con todos los medios de pago",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    2
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Comunidad Coto",
+   "redes": [],
+   "medios": [
+    "club"
+   ],
+   "porcentaje": "15",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "Exclusivo en sucursales. En un pago si sos miembro de nuestra Comunidad. Con todos los medios de pago Siendo miembro de Comunidad Coto - Aplican exclusiones. Ver legales - Sin límite de reintegro.",
+   "id": "demo-028",
+   "cuando": "Miercoles"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "30% de descuento Exclusivo en sucursales. Pagando con MODO desde la app de Supervielle con tarjetas de débito y crédito del banco",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    1
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Supervielle",
+   "redes": [],
+   "medios": [
+    "credito",
+    "debito",
+    "billetera"
+   ],
+   "porcentaje": "30",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "Exclusivo en sucursales. Pagando con MODO desde la app de Supervielle con tarjetas de débito y crédito del banco Sin tope de reintegro. No acumula con promo Modo martes. Aplica para compras presenciales en un pago, en los productos sin oferta. Aplican excluidos, ver legales.",
+   "id": "demo-029",
+   "cuando": "Martes"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "10% de descuento Exclusivo en sucursales. En un pago con tarjetas de crédito y débito.",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": null,
+   "redes": [],
+   "medios": [],
+   "porcentaje": "10",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [
+    "anses"
+   ],
+   "regional": false,
+   "legal": "Exclusivo en sucursales. En un pago con tarjetas de crédito y débito. Sin tope de reintegro. Aplican exclusiones. Ver legal.",
+   "id": "demo-030",
+   "cuando": "De Lunes a Jueves"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "15% de descuento Exclusivo en sucursales. En un pago con todos los medios de pago, presentando DNI",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    3
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": null,
+   "redes": [],
+   "medios": [],
+   "porcentaje": "15",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [
+    "jubilado"
+   ],
+   "regional": false,
+   "legal": "Exclusivo en sucursales. En un pago con todos los medios de pago, presentando DNI Para todos los jubilados y pensionados, en un pago con todos los medios de pago presentando DNI. Aplican exclusiones. Ver legal.",
+   "id": "demo-031",
+   "cuando": "Jueves"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "15% de descuento Exclusivo en sucursales. Programa ciudadanía porteña",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    1,
+    3
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": "Ciudadanía Porteña",
+   "redes": [],
+   "medios": [],
+   "porcentaje": "15",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "Exclusivo en sucursales. Programa ciudadanía porteña Sin tope de reintegro. Aplican exclusiones. Ver legal.",
+   "id": "demo-032",
+   "cuando": "Martes y Jueves"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "30% de descuento Exclusivo en sucursales. En compras presenciales pagando desde tu celular CON VISA DÉBITO NFC con Bancos seleccionados.",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    3
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "porcentaje",
+   "entidad": null,
+   "redes": [
+    "visa"
+   ],
+   "medios": [
+    "debito"
+   ],
+   "porcentaje": "30",
+   "cuotas": null,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": true,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "Exclusivo en sucursales. En compras presenciales pagando desde tu celular CON VISA DÉBITO NFC con Bancos seleccionados. Sin tope de reintegro. Aplican exclusiones. Ver legal.",
+   "id": "demo-033",
+   "cuando": "Jueves"
+  },
+  {
+   "fuente": "coto",
+   "titulo": "3 cuotas sin interés Exclusivo en sucursales. 3 cuotas sin interés con tarjeta de crédito Mercado Pago. Pagando con QR.",
+   "cadenas": [
+    "Coto"
+   ],
+   "canales": [
+    "tienda"
+   ],
+   "dias": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "desde": "2026-11-17",
+   "hasta": "2026-11-26",
+   "tipo": "cuotas",
+   "entidad": "Mercado Pago",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": null,
+   "cuotas": 3,
+   "monto": null,
+   "tope": null,
+   "tope_periodo": null,
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": false,
+   "exclusiones": [
+    "aceites",
+    "carnes",
+    "electro"
+   ],
+   "requisitos": [],
+   "regional": false,
+   "legal": "Exclusivo en sucursales. 3 cuotas sin interés con tarjeta de crédito Mercado Pago. Pagando con QR. Pagando con QR tarjeta de crédito mercado pago en compras a partir de $150.000. No válido para venta online (Coto Digital). Aplican exclusiones. Ver legal.",
+   "id": "demo-034",
+   "cuando": "De Lunes a Domingo"
+  },
+  {
+   "fuente": "modo",
+   "titulo": "20% en DIA con MODO",
+   "cadenas": [
+    "DIA"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    4,
+    5
+   ],
+   "desde": "2026-11-01",
+   "hasta": "2026-12-31",
+   "tipo": "porcentaje",
+   "entidad": "MODO",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "20",
+   "cuotas": null,
+   "monto": null,
+   "tope": "20000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": "35000",
+   "acumulable": true,
+   "exclusiones": [],
+   "requisitos": [],
+   "regional": false,
+   "legal": "20% de reintegro en Supermercados DIA. ¿Cómo puedo acceder al beneficio? Realizando una compra con tus tarjetas de crédito, débito y prepagas a través de MODO. Es acumulable con otras promociones ¡Sí!",
+   "id": "demo-035",
+   "cuando": ""
+  },
+  {
+   "fuente": "modo",
+   "titulo": "25% de reintegro en ChangoMás con Hipotecario",
+   "cadenas": [
+    "Changomas"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    1
+   ],
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "Hipotecario",
+   "redes": [
+    "visa"
+   ],
+   "medios": [
+    "debito"
+   ],
+   "porcentaje": "25",
+   "cuotas": null,
+   "monto": null,
+   "tope": "10000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": null,
+   "acumulable": null,
+   "exclusiones": [],
+   "requisitos": [],
+   "regional": false,
+   "legal": "Aprovechá 25% de reintegro en ChangoMás pagando con el Banco Hipotecario . Realizando una compra con tu tarjeta de débito Visa del Banco Hipotecario a través de MODO.",
+   "id": "demo-036",
+   "cuando": "ChangoMás"
+  },
+  {
+   "fuente": "modo",
+   "titulo": "20% en Jumbo con MODO",
+   "cadenas": [
+    "Jumbo"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    1,
+    3
+   ],
+   "desde": "2026-11-01",
+   "hasta": "2026-11-30",
+   "tipo": "porcentaje",
+   "entidad": "MODO",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "20",
+   "cuotas": null,
+   "monto": null,
+   "tope": "25000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": "100000",
+   "acumulable": true,
+   "exclusiones": [],
+   "requisitos": [],
+   "regional": false,
+   "legal": "20% de reintegro en Jumbo. ¿Cómo puedo acceder al beneficio? Realizando una compra con tus tarjetas de crédito, débito y prepagas a través de MODO. Es acumulable con otras promociones ¡Sí!",
+   "id": "demo-037",
+   "cuando": ""
+  },
+  {
+   "fuente": "modo",
+   "titulo": "20% en ChangoMás con MODO",
+   "cadenas": [
+    "Changomas"
+   ],
+   "canales": [
+    "tienda",
+    "online"
+   ],
+   "dias": [
+    0
+   ],
+   "desde": "2026-11-01",
+   "hasta": "2026-12-31",
+   "tipo": "porcentaje",
+   "entidad": "MODO",
+   "redes": [],
+   "medios": [
+    "billetera"
+   ],
+   "porcentaje": "20",
+   "cuotas": null,
+   "monto": null,
+   "tope": "25000",
+   "tope_periodo": "mes",
+   "sin_tope": false,
+   "minimo": "75000",
+   "acumulable": true,
+   "exclusiones": [],
+   "requisitos": [],
+   "regional": false,
+   "legal": "20% de reintegro en ChangoMás . ¿Cómo puedo acceder al beneficio? Realizando una compra con tus tarjetas de crédito, débito y prepagas a través de MODO. Es acumulable con otras promociones ¡Sí!",
+   "id": "demo-038",
+   "cuando": ""
+  }
+ ]
+}

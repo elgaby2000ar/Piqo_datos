@@ -12,13 +12,12 @@ queda publicado el anterior.
 ¿Por qué una PC y no GitHub Actions? El portal de datos devuelve 403 a las IPs de
 centros de datos (probado el 18/11/2026): solo responde a conexiones desde Argentina.
 
-## Instalar en la PC (una vez)
+## La PC que lo arma
 
-1. Instalar [Python 3.12 o más nuevo](https://www.python.org/downloads/) (marcar "Add to PATH") y Git.
-2. Clonar este repositorio: `git clone https://github.com/elgaby2000ar/Piqo_datos`
-3. En PowerShell, dentro de la carpeta: `powershell -ExecutionPolicy Bypass -File pc\instalar.ps1`
-
-Corre a las 14:00 y 18:30; si la PC estaba apagada, apenas se prende. Registro en `pc\actualizar.log`.
+Los scripts viven en el repositorio de Piqo (`pc/`, ver `pc/LEEME.md`): la PC clona Piqo,
+y esa tarea clona este repositorio al lado para publicar. Todos los días: precios de SEPA
+y ofertas de góndola de las tiendas online; una vez por semana: promos bancarias
+(`promos/promos.json` de esta rama `main`).
 
 ## Formato (`v1/`)
 
@@ -29,6 +28,7 @@ Corre a las 14:00 y 18:30; si la PC estaba apagada, apenas se prende. Registro e
 | `productos.json` | catálogo: `ean, nombre, marca, categoria, contenido, unidad, minimo, sucursales`; su posición es el número de producto |
 | `leyendas.json` | textos de las ofertas |
 | `promos.json` | promos bancarias vigentes (mismo formato que `GET /api/v1/promos` de Piqo); sale de `promos/promos.json` de `main`, que se actualiza una vez por semana |
+| `ofertas.json` | ofertas de góndola de las tiendas online (hoy Coto Digital): por cadena, `[clave, factor, texto, lleva, comunidad]`; `factor` es precio por unidad con la oferta / precio sin ella (3x2 → 0.666667 llevando 3) |
 | `p/<n>.json` | `{número de producto: {"id": uuid, "p": [[sucursal, lista, oferta, leyenda], ...]}}` con `n = número de producto % fragmentos` |
 
 Los ids son UUID5 deterministas (del EAN o de la clave de sucursal de SEPA): el servidor
@@ -36,7 +36,6 @@ de Piqo y la app llegan al mismo id sin consultarse.
 
 ## Código
 
-`constructor/` es una copia de los módulos de lectura de SEPA del repositorio de Piqo
-(`backend/scripts/sincronizar_piqo_datos.sh`). No editar acá: se pisa en cada sincronización.
-
-A mano: `cd constructor && pip install httpx && python scripts/armar_paquete.py --salida ../sitio`
+El armado está en el repositorio de Piqo (`backend/app/paquete.py`,
+`backend/app/ofertas_super.py`, `backend/scripts/armar_paquete.py`). `constructor/` es una
+copia vieja que ya no se usa.

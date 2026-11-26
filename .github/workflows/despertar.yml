@@ -1,0 +1,16 @@
+# Piloto: mantiene despierto el servidor de Piqo (Render gratis se duerme a los 15 minutos
+# sin uso y tarda hasta un minuto en volver). Solo de 7 a 1 de Argentina (10 a 4 UTC).
+# Repo público: no gasta minutos de GitHub. Para producción, reemplazar por un plan sin
+# suspensión.
+name: Despertar servidor
+on:
+  schedule:
+    - cron: "*/10 0-3,10-23 * * *"
+  workflow_dispatch:
+permissions: {}
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - run: curl -fsS --max-time 90 --retry 2 -o /dev/null -w "%{http_code} %{time_total}s\n" https://piqo-api.onrender.com/api/v1/salud
